@@ -1,0 +1,64 @@
+.body {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.maincourse {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.selectedcourse1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+.bodybox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.list {
+    width: 20%;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.course {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.mainbox {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+}

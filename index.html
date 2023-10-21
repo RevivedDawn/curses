@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <p>Nexus Class</p>
+        </div>
+        <div class="bodybox">
+            <div class="list">
+                <div>
+                    <p>Список курсов</p>
+                </div>
+                <div class="course" id="course1">
+                    <p>Электроника</p>
+                </div>
+
+                <div class="course" id="course2">
+                    <p>Безопасность</p>
+                </div>
+            </div>
+                <div class="mainbox">
+                    <p></p>
+                    <div id="selectedcourse1" class="selectedcourse">
+                        <p>
+                            А электроника это бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-
+                            бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла
+                        <p>
+                    </div>
+                    
+                    <div id="selectedcourse2" class="selectedcourse">
+                        <p>
+                            А безопасность это бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-
+                            бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла
+                        <p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            HIDE();
+            function HIDE() {
+                $('#selectedcourse1').hide();
+                $('#selectedcourse2').hide();
+                $('#selectedcourse3').hide();
+            }
+
+            $('#course1').click(function () {
+                HIDE();
+                $('#selectedcourse1').show(1000);
+            });
+
+            $('#course2').click(function () {
+                HIDE();
+                $('#selectedcourse2').show(1000);
+            });
+
+            $('#course3').click(function () {
+                HIDE();
+                $('#selectedcourse3').show(1000);
+            });
+        });
+    </script>
+    
+</body>
+</html>
